@@ -38,7 +38,7 @@ public class movement : MonoBehaviour
     }
     private void OnCollisionEnter(Collision other)
     {
-        if (rb.velocity.magnitude > 1)
+        if (rb.linearVelocity.magnitude > 1)
         {
             shaker.ShakeOnce(1f, shakeStrength, null, Camera.current);
             hit.pitch = Time.timeScale + Random.Range(-0.1f, 0.4f);
