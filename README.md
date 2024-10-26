@@ -8,7 +8,7 @@ This is a github holding all scripts, art, models and sfx. Feel free to use them
 
 # Download & Setup
     Clone this repository to your local machine using git clone.
-    Open the project using Unity 2022.3.5f1
+    Open the project using Unity 6
     You are good to go!
 
 # Credits
